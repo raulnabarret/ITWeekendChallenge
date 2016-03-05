@@ -56,3 +56,7 @@ body {
 	height: 600px;
 	background-image: url('../img/seccion5.png');
 }
+
+.container-fluid {
+	padding: 0;
+}
