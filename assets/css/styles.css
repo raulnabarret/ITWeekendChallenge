@@ -1,8 +1,15 @@
+body {
+	font-family: 'Lato';
+	font-size: 18px;
+}
 
 .navigation {
 	background: #fff;
+	font-size: 0.9em;
+	font-weight: 400;
 	height: 100px;
 	border-bottom: 1px solid #0039A6;
+	margin-bottom: 
 }
 
 .navigation-row,
@@ -25,4 +32,27 @@
 .menu {
 	margin: 25px 0;
 	padding: 0 15px;
+}
+
+#seccion1 {
+	height: 600px;
+	background-image: url('../img/seccion1.png'); 
+}
+
+#seccion2 {
+	height: 600px;
+	background-image: url('../img/seccion2.png'); 
+}
+
+#seccion3 {
+	height: 600px;
+	background-image: url('../img/seccion3.png'); 
+}
+#seccion4 {
+	height: 600px;
+	background-image: url('../img/seccion4.png'); 
+}
+#seccion5 {
+	height: 600px;
+	background-image: url('../img/seccion5.png');
 }
