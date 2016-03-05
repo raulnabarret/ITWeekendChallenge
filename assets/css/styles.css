@@ -1,0 +1,19 @@
+
+.navigation {
+	background: #fff;
+	height: 100px;
+	border-bottom: 3px solid #0039A6;
+}
+
+.navigation-row,
+.navigation-container-fluid,
+.navbar-header,
+.navbar-brand,
+.navbar-collapse {
+	height: 100px;
+}
+
+.navigation .navbar-brand img {
+	height: 80px;
+	width: auto;
+}
