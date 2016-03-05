@@ -1,15 +1,18 @@
+
 body {
+		width: 100%;
 	font-family: 'Lato';
 	font-size: 18px;
+}
+
+section {
+	width: 100%;
 }
 
 .navigation {
 	background: #fff;
 	border-bottom: none;
 	height: 100px;
-	padding-left: 15px;
-	padding-right: 15px;
-	width: 100%;
 }
 
 .navigation .row {
@@ -68,7 +71,7 @@ body {
 } 
 
 #seccion1 {
-	height: 900px; 
+	height: 700px; 
   	display: block;
   	position: relative;
     display: flex;
@@ -114,7 +117,7 @@ body {
 
 
 #seccion2 {
-	height: 900px; 
+	height: 700px; 
   	display: block;
   	position: relative;
     display: flex;
@@ -160,7 +163,7 @@ body {
 
 
 #seccion3 {
-	height: 900px; 
+	height: 700px; 
   	display: block;
   	position: relative;
     display: flex;
@@ -205,7 +208,7 @@ body {
 }
 
 #seccion4 {
-	height: 900px; 
+	height: 700px; 
   	display: block;
   	position: relative;
     display: flex;
@@ -250,7 +253,7 @@ body {
 }
 
 #seccion5 {
-	height: 900px; 
+	height: 700px; 
   	display: block;
   	position: relative;
     display: flex;
@@ -298,14 +301,33 @@ body {
 	padding: 0;
 }
 
+
+
 @media screen and (max-width: 414px) {
 
 	body {
-		font-size: 14px;
+		font-size: 12px;
 	}
 
+	.investigacion-btn{
+		width: 250px;
+	}
 	.admision-btn {
 		width: 250px;
 	}
+
+	.campus-btn {
+		width: 250px;
+	}
+
+	.emprendimiento-btn {
+		width: 250px;
+	}
+
+	.conoce-mas-btn {
+		width: 250px;
+	}
+
+
 
 }
