@@ -484,6 +484,7 @@ section {
 }
 
 .career-container {
+	padding: 20px 5px; 
 	margin: 50px 0 0 0;
 }
 
@@ -532,7 +533,66 @@ section {
 }
 
 
+.oferta-header {
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #fffdfd;
+}
 
+.oferta-description {
+	color: #fff; 
+	font-size: 1em;
+	font-weight: 300;
+}
+
+.oferta-mini-container {
+	height: 200px;
+	margin: 20px;
+}
+
+.oferta-btn {
+	color: #fff;
+	background: #333;
+	font-size: 1em;
+	display: block;
+	float: right;
+	padding: 10px 5px;
+	height: 50px;
+	width: 200px;
+	border-radius: 0;
+}
+
+.oferta-btn:hover {
+	color: #c4c4c4;
+}
+
+#negocios {
+	background: #E56924;
+}
+
+#humanidades {
+	background: #C22027;
+}
+
+#tecnologias {
+	background: #237BBF;
+}
+
+#ingenieria {
+	background: #4b7abb;
+}
+
+#biotecnologia {
+	background: #7CA43F;
+}
+
+#arqui {
+	background: #1A97CC;
+}
+
+#medicina {
+	background: #10867D;
+}
 
 
 @media screen and (max-width: 414px) {
@@ -571,6 +631,25 @@ section {
 	.profesional-mini-container-btn {
 		width: 200px;
 	}
+
+	.oferta-header {
+		font-size: 1em;
+	}
+
+	.oferta-description {
+		font-size: 0.8em;
+	}
+
+	.oferta-btn {
+		margin: 5px 10px;
+		width: 100px;
+		height: 30px;
+	}
+
+	.oferta-mini-container {
+		padding: 20px;
+	height: 150px;
+}
 
 
 

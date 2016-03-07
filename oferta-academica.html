@@ -39,11 +39,11 @@
                 <!--Items del menú-->
                 <div class="collapse navbar-collapse" id="menu-responsive">
                     <ul class="nav navbar-right menu">
-                        <li class=""><a href="#seccion1">Nosotros</a></li>
-                        <li class=""><a href="#seccion2">Admisiones</a></li>
-                        <li class=""><a href="#seccion5">Campus</a></li>
-                        <li class=""><a href="#seccion4">Emprendimiento</a></li>
-                        <li class=""><a href="#seccion3">Investigación</a></li>
+                        <li class=""><a href="nosotros.html">Nosotros</a></li>
+                        <li class=""><a href="#">Admisiones</a></li>
+                        <li class=""><a href="#">Campus</a></li>
+                        <li class=""><a href="#">Emprendimiento</a></li>
+                        <li class=""><a href="#">Investigación</a></li>
                     </ul>
                 </div>
                 <!--Terminan items del menú-->
@@ -52,6 +52,56 @@
     	<!--Termina el menú de la página-->
 		<section class="section-container container-fluid">
 
+            <div id="negocios" class="col-lg-10 oferta-mini-container">
+                <h2 class="oferta-header">Negocios y Administración</h2>
+                <p class="oferta-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at sem dictum enim pulvinar elementum. Suspendisse ac convallis augue.
+                </p> 
+                <button class="btn oferta-btn">Ver Carreras</button>
+            </div> 
+            <div id="humanidades" class="col-lg-10 oferta-mini-container">
+                <h2 class="oferta-header">Humanidades y Ciencias Sociales</h2>
+                <p class="oferta-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at sem dictum enim pulvinar elementum. Suspendisse ac convallis augue.
+                </p> 
+                <button class="btn oferta-btn">Ver Carreras</button>
+            </div>
+            <div id="tecnologias" class="col-lg-10 oferta-mini-container">
+                <h2 class="oferta-header">Tecnologías de Información y Electrónica</h2>
+                <p class="oferta-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at sem dictum enim pulvinar elementum. Suspendisse ac convallis augue.
+                </p> 
+                <button id="tecnologias-btn" class="btn oferta-btn">Ver Carreras</button>
+            </div> 
+            <div id="ingenieria" class="col-lg-10 oferta-mini-container">
+                <h2 class="oferta-header">Ingeniería</h2>
+                <p class="oferta-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at sem dictum enim pulvinar elementum. Suspendisse ac convallis augue.
+                </p> 
+                <button class="btn oferta-btn">Ver Carreras</button>
+            </div>            
+            <div id="biotecnologia" class="col-lg-10 oferta-mini-container">
+                <h2 class="oferta-header">Biotecnologia, Agricultura y Alimentos</h2>
+                <p class="oferta-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at sem dictum enim pulvinar elementum. Suspendisse ac convallis augue.
+                </p> 
+                <button class="btn oferta-btn">Ver Carreras</button>
+            </div> 
+            <div id="arqui" class="col-lg-10 oferta-mini-container">
+                <h2 class="oferta-header">Arquitectura, Arte y Diseño</h2>
+                <p class="oferta-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at sem dictum enim pulvinar elementum. Suspendisse ac convallis augue.
+                </p> 
+                <button class="btn oferta-btn">Ver Carreras</button>
+            </div>            
+            <div id="medicina" class="col-lg-10 oferta-mini-container">
+                <h2 class="oferta-header">Medicina y Ciencias de la Salud</h2>
+                <p class="oferta-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at sem dictum enim pulvinar elementum. Suspendisse ac convallis augue.
+                </p> 
+                <button class="btn oferta-btn">Ver Carreras</button>
+            </div> 
+        
         </section>
         
     <footer class="footer container-fluid">
@@ -81,5 +131,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById("tecnologias-btn").onclick = function () {
+            location.href = "itc.html";
+        };
+      
+    </script>    
 </body>
 </html>
