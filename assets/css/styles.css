@@ -63,7 +63,7 @@ section {
 }
 
 .navbar-toggle {
-    margin: 25px 0;
+    margin: 35px 25px;
 }
 
 .section-container {
@@ -338,7 +338,7 @@ section {
 	color: #fff;
 	font-size: 0.6em;
 	font-weight: 300;
-	margin: 40px 0;
+	margin: 40px 0 0 0;
 }
 
 
